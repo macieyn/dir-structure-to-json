@@ -2,10 +2,16 @@ import os
 import json
 
 extensions = {
-    'Raster Graphics File': ['.bmp', '.img', '.jpg', '.jpeg', '.png'],
-    'Vector Graphics File': ['.ai', '.svg'],
-    'Text File': ['.txt', '.doc'],
-    'Data File': ['.xml'],
+    'Raster Graphics File': ['.bmp', '.img', '.jpg', '.jpeg', '.png', '.gif', '.tiff'],
+    'Vector Graphics File': ['.ai', '.svg', '.eps', '.ai'],
+    'Text File': ['.txt', '.doc', '.docx', '.odt', '.rtf', '.tex'],
+    'Data File': ['.xml', '.json'],
+    'PDF File': ['.pdf'],
+    'Spreadsheet File': ['.xls'],
+    'Web File': ['.html', '.css'],
+    'Programming Language File': ['.py', '.js', '.c', '.cpp', '.h', '.hpp', '.pyc'],
+    'Executable File': ['.exe', '.bat', '.bash'],
+    'Binary File': ['.bin'],
 }
 
 
