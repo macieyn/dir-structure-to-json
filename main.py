@@ -5,6 +5,7 @@ extensions = {
     'Raster Graphics File': ['.bmp', '.img', '.jpg', '.jpeg', '.png', '.gif', '.tiff'],
     'Vector Graphics File': ['.ai', '.svg', '.eps', '.ai'],
     'Video File': ['.mp4', '.avi', '.mpeg', '.mkv', '.flv', '.mov', '.vob', '.wmv', '.rmvb'],
+    'Audio File': ['.mp3', '.aac', '.flac', '.3gp', '.m4a', '.mpc', '.wav', '.wma'],
     'Text File': ['.txt', '.doc', '.docx', '.odt', '.rtf', '.tex'],
     'Data File': ['.xml', '.json'],
     'PDF File': ['.pdf'],
